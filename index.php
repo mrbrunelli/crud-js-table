@@ -114,7 +114,7 @@
             })
         }
 
-        // QUANDO CARREGAR A PÁGINA, O JAVASCRIPT FARÁ A REQUISIÇÃO AO BACKEND
+        // A CADA 20 SEGUNDOS A FUNCÃO LISTARUSUARIO() IŔA SER EXECUTADA
         setInterval(() => {
             listarUsuario()
         }, 20000);
